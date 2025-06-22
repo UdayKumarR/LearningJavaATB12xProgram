@@ -40,9 +40,8 @@ public class Employee {
 
     public static void main(String[] args) {
         Employee E1 = new Employee(1,"John Doe", 50000);
-
-        E1.getId();
-        E1.getName();
-        E1.getSalary();
+        System.out.print(E1.getId()+" ");
+        System.out.print(E1.getName()+" ");
+        System.out.print(E1.getSalary()+" ");
     }
 }
